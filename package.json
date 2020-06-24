@@ -1,0 +1,19 @@
+{
+  "name": "mern-list",
+  "version": "1.0.0",
+  "description": "A simple list web app made in the MERN stack. This project is my learning project following this tutorial series: https://www.youtube.com/playlist?list=PLillGF-RfqbbiTGgA77tGO426V3hRF9iE",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdamPodoxin/MERN-List.git"
+  },
+  "author": "Adam Podoxin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdamPodoxin/MERN-List/issues"
+  },
+  "homepage": "https://github.com/AdamPodoxin/MERN-List#readme"
+}
