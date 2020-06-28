@@ -11,7 +11,6 @@ import {
 } from "reactstrap";
 import { connect } from "react-redux";
 import { addItem } from "../actions/itemActions";
-import { v4 as uuid } from "uuid";
 
 class ItemModal extends Component {
   state = {
@@ -35,7 +34,6 @@ class ItemModal extends Component {
     e.preventDefault();
 
     const newItem = {
-      id: uuid(),
       name: this.state.name,
     };
 
@@ -54,7 +52,7 @@ class ItemModal extends Component {
           style={{ marginBottom: "2rem" }}
           onClick={this.toggle}
         >
-          AddItem
+          Add Item
         </Button>
 
         <Modal isOpen={this.state.modal} toggle={this.toggle}>
